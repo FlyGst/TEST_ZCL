@@ -1,6 +1,0 @@
-@EndUserText.label: 'Carrier - Access Control'
-@MappingRole: true
-define role /DMO/I_CARRIER {
-    grant select on /DMO/I_CARRIER
-              where (AirlineID) = aspect pfcg_auth(/DMO/CARR, /DMO/CARR , ACTVT = '03'); 
-}
